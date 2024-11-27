@@ -12,6 +12,7 @@ const options: NextAuthOptions = {
           "user-read-recently-played", // Access recently played tracks
           "user-library-read", // Access saved tracks and albums
           "user-read-private", // Access user profile
+          "user-read-currently-playing", // Access currently playing track
         ].join(" "),
       clientId: process.env.SPOTIFY_CLIENT_ID || "",
       clientSecret: process.env.SPOTIFY_CLIENT_SECRET || "",
