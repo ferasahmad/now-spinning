@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchCurrentlyPlaying } from "@/lib/spotify/endpoints";
 
-interface CurrentlyPlaying {
+export interface CurrentlyPlaying {
   name: string;
   trackNumber: number;
   artists: string[];
