@@ -10,7 +10,7 @@ export default function Turntable() {
       <Image
         src={Record}
         alt=""
-        className="absolute left-[10px] top-[10px] w-[440px] h-[440px]"
+        className="absolute left-[10px] top-[10px] w-[427px] h-[427px]"
       />
       <Image
         src={ToneArm}
