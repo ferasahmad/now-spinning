@@ -33,3 +33,6 @@ export const fetchSavedTracks = (accessToken: string, limit = 10) =>
 
 export const fetchUserProfile = (accessToken: string) =>
   fetchSpotifyData("/me", accessToken);
+
+export const fetchCurrentlyPlaying = (accessToken: string) =>
+  fetchSpotifyData("/me/player/currently-playing", accessToken);

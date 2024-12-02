@@ -16,15 +16,9 @@
   font-style: normal;
 }
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2b1d00;
   }
 }
 
@@ -36,8 +30,9 @@ html {
 }
 
 body {
-  color: var(--foreground);
+  color: white;
   background: var(--background);
+  background-image: url("../assets/Floor.svg");
   font-family: Rubik, Arial, Helvetica, sans-serif;
 }
 
